@@ -39,6 +39,7 @@
 +                     grbl with ZD141201
 + PetervdWalt 11/6/2020 Updated Header to include G20/G90 Modals
 +                     for OpenBuilds BlackBox
++ PetervdWalt 11/07/2023 Updated to use MIN_ARC_RADIUS
 + ======== ========== ===========================
 
 POST_NAME = "OpenBuilds GRBL (mm) (*.GCODE)"
@@ -47,6 +48,7 @@ POST_BASE = "Grbl_mm.pp"
 
 FILE_EXTENSION = "GCODE"
 
+VAR MIN_ARC_RADIUS = 1
 
 +================================================
 +
