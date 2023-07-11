@@ -39,6 +39,7 @@
 +                     grbl with ZD141201
 + PetervdWalt 11/6/2020 Updated Header to include G20/G90 Modals
 +                     for OpenBuilds BlackBox
++ PetervdWalt 11/6/2020 Updated to use MIN_ARC_RADIUS
 + ======== ========== ===========================
 
 POST_NAME = "OpenBuilds GRBL (Inches) (*.GCODE)"
@@ -80,6 +81,7 @@ VAR ARC_CENTRE_J_INC_POSITION = [J|A|J|1.4]
 VAR X_HOME_POSITION = [XH|A|X|1.4]
 VAR Y_HOME_POSITION = [YH|A|Y|1.4]
 VAR Z_HOME_POSITION = [ZH|A|Z|1.4]
+VAR MIN_ARC_RADIUS = 0.04
 
 +================================================
 +
@@ -109,3 +111,5 @@ begin SPINDLE_ON
 
 "M3[S]"
 "G4 P1.8"
+
+
